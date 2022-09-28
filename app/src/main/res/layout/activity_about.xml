@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@drawable/boboboy"
+        android:layout_marginTop="90dp"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/saya"/>
+    <TextView
+        android:text="MUH. IQBAL HARDIYANTO"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"/>
+    <TextView
+        android:text="muhiqbal1059@gmail.com"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"/>
+
+</LinearLayout>
